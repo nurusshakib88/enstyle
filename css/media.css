@@ -1,0 +1,217 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.menu {
+	margin-top: 15px;
+	text-align: center;
+}
+.menu ul li {
+	margin-right: 0 !important;
+}
+.goto ul li:not(:last-child) {
+   margin-right: 20px !important;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	padding-top: 20px !important;
+}
+.b_text h1 {
+   font-size: 35px;
+   padding: 10px 0 0;
+}
+.shop_btn {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*banner end*/
+/*feature start*/
+section {
+   padding-top: 60px;
+   padding-bottom: 10px;
+}
+.h_section h1 {
+   font-size: 22px;
+}
+/*feature end*/
+/*offer start*/
+.t_discount h1 {
+   font-size: 60px;
+}
+.t_discount h3 {
+   font-size: 25px;
+}
+/*offer end*/
+/*footer start*/
+.f_top {
+   text-align: center;
+    padding: 55px 0 40px;
+}
+.get_it {
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+}
+/*footer end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu {
+	margin-top: 15px;
+	text-align: right;
+}
+.menu ul li {
+	margin-right: 0 !important;
+}
+.goto ul li:not(:last-child) {
+   margin-right: 20px !important;
+}
+/*header end*/
+
+/*banner start*/
+.b_text h1 {
+   font-size: 35px;
+   padding: 10px 0 0;
+}
+.shop_btn {
+	margin-top: 15px;
+	padding: 8px 20px;
+}
+/*banner end*/
+/*feature start*/
+section {
+   padding-top: 60px;
+   padding-bottom: 10px;
+}
+.h_section h1 {
+   font-size: 25px;
+}
+/*feature end*/
+/*offer start*/
+.t_discount h1 {
+   font-size: 42px;
+}
+.t_discount h3 {
+   font-size: 16px;
+}
+/*offer end*/
+/*journal start*/
+.j_link a {
+    font-size: 15px;
+}
+/*journal end*/
+/*footer start*/
+.f_top {
+   text-align: center;
+    padding: 55px 0 40px;
+}
+.get_it {
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+}
+/*footer end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.h_top ul li:not(:last-child) {
+   margin-right: 15px;
+}
+.menu {
+	margin-top: 15px;
+	text-align: right;
+}
+.menu ul li {
+	margin-right: 0 !important;
+}
+.goto ul li:not(:last-child) {
+   margin-right: 20px !important;
+}
+/*header end*/
+
+/*banner start*/
+.b_text h1 {
+   font-size: 40px;
+   padding: 10px 0 0;
+}
+.shop_btn {
+	margin-top: 20px;
+}
+/*banner end*/
+/*feature start*/
+section {
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.h_section h1 {
+   font-size: 30px;
+}
+/*feature end*/
+/*offer start*/
+.t_discount h1 {
+   font-size: 65px;
+}
+.t_discount h3 {
+   font-size: 25px;
+}
+/*offer end*/
+/*footer start*/
+.f_top {
+    padding: 55px 0 45px;
+}
+.get_it {
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+}
+/*footer end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.menu ul li:not(:last-child) {
+   margin-right: 20px;
+}
+/*header end*/
+
+/*banner start*/
+.shop_btn {
+	margin-top: 30px;
+}
+/*banner end*/
+
+/*offer start*/
+.t_discount h1 {
+   font-size: 80px;
+}
+.t_discount h3 {
+   font-size: 30px;
+}
+/*offer end*/
+/*footer start*/
+.f_top {
+    padding: 65px 0 50px;
+}
+.get_it {
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+}
+/*footer end*/
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
